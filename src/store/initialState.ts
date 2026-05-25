@@ -5,7 +5,7 @@ const today = isoDate(new Date());
 
 export const DEFAULT_PRACTICE_HOURS: AppState['practiceHours'] = {
   0: { closed: false, morning: { start: '08:00', end: '13:00' }, afternoon: { start: '14:00', end: '18:00' } }, // Mo
-  1: { closed: false, morning: { start: '08:00', end: '15:00' }, afternoon: { start: '16:00', end: '20:00' } }, // Di
+  1: { closed: false, morning: { start: '08:00', end: '12:00' }, afternoon: { start: '16:00', end: '20:00' } }, // Di
   2: { closed: false, morning: { start: '08:00', end: '13:00' } },                                              // Mi
   3: { closed: false, morning: { start: '08:00', end: '13:00' }, afternoon: { start: '14:00', end: '18:00' } }, // Do
   4: { closed: false, morning: { start: '08:00', end: '13:00' } },                                              // Fr
